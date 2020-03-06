@@ -1,0 +1,17 @@
+Fixing Steps 
+
+1. Dropzone 
+
+	- Check if it is full or empty
+		a. Empty -> We have to append the dragged image
+		b. Full -> We have to append the first child to puzzleParent
+
+
+2. Reset
+ 
+	a. Using the for loop 
+		We have to roam the entire dropzones
+	b. If statement inside "for loop" 
+		We want dropzones to be full. (Should check if the dropzones are empty)
+	c. If its full 
+		We have to append the child to puzzleParent
